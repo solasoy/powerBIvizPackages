@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Sola Soyemi","email":"solasoy2000@yahoo.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/spectrumplotPBviz7DEA5CA2058841A9BE801C6417758871.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"spectrumplotPBviz","displayName":"spectrumplotPBviz","guid":"spectrumplotPBviz7DEA5CA2058841A9BE801C6417758871","visualClassName":"Visual","version":"1.0.0","description":"Spectrum line charts","supportUrl":"https://github.com/solasoy/spectrumplot","gitHubUrl":"https://github.com/solasoy/spectrumplot"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

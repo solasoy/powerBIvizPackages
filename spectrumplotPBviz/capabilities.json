@@ -1,0 +1,71 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "PlotSpectra",
+      "description": "Enter 4 spectrum plot parameters -spectra (JSON array), sampleId (text array), wavelength_start (numeric array) , wavelength_end (numeric array)",
+      "kind": "GroupingOrMeasure",
+      "name": "values"
+    }
+	
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "values": {
+            "max": 4
+          }
+        }
+      ],
+      "scriptResult": {
+        "dataInput": {
+          "table": {
+            "rows": {
+              "select": [
+                {
+                  "for": {
+                    "in": "values"
+                  }
+                }
+              ],
+              "dataReductionAlgorithm": {
+                "top": {}
+              }
+            }
+          }
+        },
+        "script": {
+          "scriptProviderDefault": "R",
+          "scriptOutputType": "html",
+          "source": {
+            "objectName": "rcv_script",
+            "propertyName": "source"
+          },
+          "provider": {
+            "objectName": "rcv_script",
+            "propertyName": "provider"
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "rcv_script": {
+      "properties": {
+        "provider": {
+          "type": {
+            "text": true
+          }
+        },
+        "source": {
+          "type": {
+            "scripting": {
+              "source": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "suppressDefaultTitle": true
+}
