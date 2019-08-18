@@ -60,7 +60,8 @@ for(kk in 1:n) {
       tmp <- cbind(wavelength,spectrum)
       
       g <- g %>% add_trace(x = tmp[,1], y = tmp[,2], name = substr(values$Id[kk],1,9),
-                             type = "scatter", mode = "lines")  
+           type = "scatter", mode = "lines")   
+   
 }
 
 

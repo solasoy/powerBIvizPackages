@@ -1,13 +1,22 @@
 {
   "dataRoles": [
     {
-      "displayName": "Values",
+      "displayName": "SpectrumClassificationPlot",
+      "description": "Spectrum classification plot parameters",
       "kind": "GroupingOrMeasure",
-      "name": "Values"
+      "name": "values"
     }
+	
   ],
   "dataViewMappings": [
     {
+      "conditions": [
+        {
+          "values": {
+            "max": 7
+          }
+        }
+      ],
       "scriptResult": {
         "dataInput": {
           "table": {
@@ -15,7 +24,7 @@
               "select": [
                 {
                   "for": {
-                    "in": "Values"
+                    "in": "values"
                   }
                 }
               ],

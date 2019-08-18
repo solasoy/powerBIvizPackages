@@ -8,7 +8,7 @@
             "file": "resources/spectrumplotPBviz7DEA5CA2058841A9BE801C6417758871.pbiviz.json"
         }
     ],
-    "visual": {"name":"spectrumplotPBviz","displayName":"spectrumplotPBviz","guid":"spectrumplotPBviz7DEA5CA2058841A9BE801C6417758871","visualClassName":"Visual","version":"1.0.0","description":"Spectrum line charts","supportUrl":"https://github.com/solasoy/spectrumplot","gitHubUrl":"https://github.com/solasoy/spectrumplot"},
+    "visual": {"name":"spectrumplotPBviz","displayName":"spectrumplotPBviz","guid":"spectrumplotPBviz7DEA5CA2058841A9BE801C6417758871","visualClassName":"Visual","version":"1.0.0","description":"Spectrum line charts","supportUrl":"https://github.com/solasoy/powerBIvizPackages","gitHubUrl":"https://github.com/solasoy/powerBIvizPackages"},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"

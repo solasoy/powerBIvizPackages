@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Sola Soyemi","email":"solasoy2000@yahoo.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/classificationplotPBvizF2F9C2E80BE64DC887CF4448E82241C6.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"classificationplotPBviz","displayName":"classificationplotPBviz","guid":"classificationplotPBvizF2F9C2E80BE64DC887CF4448E82241C6","visualClassName":"Visual","version":"1.0.0","description":"Spectrum Classification Scatter Plot","supportUrl":"https://github.com/solasoy/powerBIvizPackages","gitHubUrl":"https://github.com/solasoy/powerBIvizPackages"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
